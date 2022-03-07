@@ -17,6 +17,16 @@
 		EAC3548C27D625D9009E192B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3546227D625D8009E192B /* ContentView.swift */; };
 		EAC3548D27D625D9009E192B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC3546327D625D9009E192B /* Assets.xcassets */; };
 		EAC3548E27D625D9009E192B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC3546327D625D9009E192B /* Assets.xcassets */; };
+		EAC354A827D626B7009E192B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC354A727D626B7009E192B /* Data.swift */; };
+		EAC354A927D626B7009E192B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC354A727D626B7009E192B /* Data.swift */; };
+		EAC354AB27D626F6009E192B /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = EAC354AA27D626F6009E192B /* landmarkData.json */; };
+		EAC354AC27D626F6009E192B /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = EAC354AA27D626F6009E192B /* landmarkData.json */; };
+		EAC354AE27D62715009E192B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC354AD27D62715009E192B /* ModelData.swift */; };
+		EAC354AF27D62715009E192B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC354AD27D62715009E192B /* ModelData.swift */; };
+		EAC354B127D62916009E192B /* ColorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC354B027D62916009E192B /* ColorList.swift */; };
+		EAC354B227D62916009E192B /* ColorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC354B027D62916009E192B /* ColorList.swift */; };
+		EAC354B427D6B700009E192B /* UITableViewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC354B327D6B700009E192B /* UITableViewColor.swift */; };
+		EAC354B527D6B700009E192B /* UITableViewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC354B327D6B700009E192B /* UITableViewColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,11 @@
 		EAC3548127D625D9009E192B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC3548527D625D9009E192B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		EAC3548727D625D9009E192B /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		EAC354A727D626B7009E192B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		EAC354AA27D626F6009E192B /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		EAC354AD27D62715009E192B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		EAC354B027D62916009E192B /* ColorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorList.swift; sourceTree = "<group>"; };
+		EAC354B327D6B700009E192B /* UITableViewColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +113,12 @@
 			isa = PBXGroup;
 			children = (
 				EAC3546127D625D8009E192B /* SwiftUI_ListApp.swift */,
+				EAC354AA27D626F6009E192B /* landmarkData.json */,
+				EAC354AD27D62715009E192B /* ModelData.swift */,
 				EAC3546227D625D8009E192B /* ContentView.swift */,
+				EAC354A727D626B7009E192B /* Data.swift */,
+				EAC354B027D62916009E192B /* ColorList.swift */,
+				EAC354B327D6B700009E192B /* UITableViewColor.swift */,
 				EAC3546327D625D9009E192B /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -267,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC3548D27D625D9009E192B /* Assets.xcassets in Resources */,
+				EAC354AB27D626F6009E192B /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC3548E27D625D9009E192B /* Assets.xcassets in Resources */,
+				EAC354AC27D626F6009E192B /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +322,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC3548B27D625D9009E192B /* ContentView.swift in Sources */,
+				EAC354A827D626B7009E192B /* Data.swift in Sources */,
 				EAC3548927D625D9009E192B /* SwiftUI_ListApp.swift in Sources */,
+				EAC354B127D62916009E192B /* ColorList.swift in Sources */,
+				EAC354AE27D62715009E192B /* ModelData.swift in Sources */,
+				EAC354B427D6B700009E192B /* UITableViewColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC3548C27D625D9009E192B /* ContentView.swift in Sources */,
+				EAC354A927D626B7009E192B /* Data.swift in Sources */,
 				EAC3548A27D625D9009E192B /* SwiftUI_ListApp.swift in Sources */,
+				EAC354B227D62916009E192B /* ColorList.swift in Sources */,
+				EAC354AF27D62715009E192B /* ModelData.swift in Sources */,
+				EAC354B527D6B700009E192B /* UITableViewColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
