@@ -10,8 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         // SwiftUIでListを表示してみる
-        ColorList()
-        
+        // ColorList()
+        // フルーツリストを表示してみる
+        FruitsList()
     }
 }
 

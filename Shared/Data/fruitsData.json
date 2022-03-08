@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Strawberry",
+        "id": 1001,
+        "color": "red",
+        "imageName": "turtlerock"
+    },
+    {
+        "name": "banana",
+        "id": 1002,
+        "color": "yellow",
+        "imageName": "turtlerock"
+    },
+    {
+        "name": "remon",
+        "id": 1003,
+        "color": "yellow",
+        "imageName": "turtlerock"
+    },
+    {
+        "name": "orange",
+        "id": 1004,
+        "color": "orange",
+        "imageName": "turtlerock"
+    }
+]
