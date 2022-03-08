@@ -9,18 +9,18 @@
         "name": "banana",
         "id": 1002,
         "color": "yellow",
-        "imageName": "turtlerock"
+        "imageName": "banana"
     },
     {
         "name": "remon",
         "id": 1003,
         "color": "yellow",
-        "imageName": "turtlerock"
+        "imageName": "remon"
     },
     {
         "name": "orange",
         "id": 1004,
         "color": "orange",
-        "imageName": "turtlerock"
+        "imageName": "orange"
     }
 ]
