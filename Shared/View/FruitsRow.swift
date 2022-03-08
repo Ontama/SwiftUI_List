@@ -24,6 +24,7 @@ struct FruitsRow: View {
 }
 
 struct FruitsRow_Previews: PreviewProvider {
+    static var fruits = ModelData().fruits
     static var previews: some View {
         FruitsRow(fruits: fruits[0])
     }

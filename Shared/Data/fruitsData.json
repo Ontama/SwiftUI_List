@@ -1,9 +1,9 @@
 [
     {
-        "name": "Strawberry",
+        "name": "strawberry",
         "id": 1001,
         "color": "red",
-        "imageName": "turtlerock"
+        "imageName": "strawberry"
     },
     {
         "name": "banana",
