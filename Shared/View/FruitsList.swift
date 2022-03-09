@@ -24,7 +24,7 @@ struct FruitsList: View {
     }
 }
 
-struct FluitsList_Previews: PreviewProvider {
+struct FruitsList_Previews: PreviewProvider {
     static var previews: some View {
         FruitsList()
             .environmentObject(ModelData())
